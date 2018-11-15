@@ -12,28 +12,3 @@ for line in w:
     for item in word:
         mydict[item] = word.count(item)
     print(mydict)
-
-
-
-
-
-    '''word = line.split()
-    count = 1
-    
-    for words in word:
-        if words == word:
-            current_count += count
-    else:
-        # print(w, current_count)
-        current_count = count'''
-
-    '''words = line.split()
-    print(words)
-    for word in words:'''
-
-
-'''
-for line in sys.stdin:
-    for word in line.strip().split():
-        print(word, 1)'''
-
