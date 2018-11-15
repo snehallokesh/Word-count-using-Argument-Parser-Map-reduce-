@@ -4,6 +4,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("echo", help="echo the string you use here", nargs='+')
 args = parser.parse_args()
 w = args.echo
+
 for line in w:
     line = line.strip()
     word = line.split()
